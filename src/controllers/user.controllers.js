@@ -16,7 +16,7 @@ const registerUser = asyncHandler( async (req, res) => {
     // return response 
 
     const {username, fullname, email, password} = req.body
-    console.log("email: ", email);
+    //console.log("email: ", email);
 
     if (
         [fullname, email, username, password].some((field)=> 
